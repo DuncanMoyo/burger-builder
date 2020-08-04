@@ -19,6 +19,13 @@ export const setIngredients = (ingredients) => {
   return {
     type: actionTypes.SET_INGREDIENTS,
     ingredients: ingredients
+    // to chnge order of ingredients
+    // ingredients: {
+    //   salad : actionTypes.ingredients.salad,
+    //   macon : actionTypes.ingredients.macon,
+    //   cheese : actionTypes.ingredients.cheese,
+    //   meat : actionTypes.ingredients.meat
+    // }
   }
 }
 
